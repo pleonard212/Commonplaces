@@ -1,0 +1,41 @@
+{
+    "port": "8080",
+    "debug": false,
+    "modules": [
+        "Roman",
+        "Samling",
+        "Novel",
+        "Kortprosa",
+        "Dagbok",
+        "Saga"
+    ],
+    "databases": {
+        "spf": {
+            "label": "Svensk prosafiktion 1800–1900",
+            "language": "swedish",
+            "description": "All svensk skönlitteratur som trycktes separat första gången åren 1800, 1820, 1840, 1860, 1880 och 1900.",
+            "duplicatesID": "0",
+            "examples": {
+                "sourcematchcontext": "jerusalem",
+                "sourceauthor": "Swedenborg",
+                "sourcetitle": "Government",
+                "sourcedate": "1728 or 1700-1725",
+                "sourcemodulename": "Latin",
+                "targetmatchcontext": "liberty",
+                "targetauthor": "Paine",
+                "targettitle": "Liberties",
+                "targetdate": "1790 or 1750-1800",
+                "targetmodulename": "Literature and Language"
+            }
+        }
+    },
+    "topAuthors": [
+        "Chambers, Ephraim",
+        "Baxter, Richard"
+    ],
+    "topTitles": [
+        "Mr. VVilliam Shakespeares comedies, histories, &amp; tragedies Published according to the true originall copies.<fs/>Plays",
+        "Ab Urbe Condita"
+    ]
+}
+
