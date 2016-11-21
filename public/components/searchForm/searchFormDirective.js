@@ -143,15 +143,6 @@
                         scope.bibleFilter = "off";
                     }
                 }
-                scope.showLatinAuthorList = false;
-                scope.latinAuthors = scope.main.webConfig.latinAuthors;
-                scope.listAuthors = function() {
-                    if (!scope.showLatinAuthorList) {
-                        scope.showLatinAuthorList = true;
-                    } else {
-                        scope.showLatinAuthorList = false;
-                    }
-                }
                 scope.showTopAuthorList = false;
                 scope.topAuthors = scope.main.webConfig.topAuthors;
                 scope.listTopAuthors = function() {
@@ -190,7 +181,6 @@
                     scope.main.formData[field] = '"' + value + '"';
                     scope.showSourceModuleList = false;
                     scope.showTargetModuleList = false;
-                    scope.showLatinAuthorList = false;
                     scope.showTopAuthorList = false;
                     scope.showTopTitleList = false;
                 }
