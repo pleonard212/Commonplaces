@@ -1,5 +1,5 @@
 {
-    "port": "8080",
+    "port": "80",
     "debug": false,
     "modules": [
         "Roman",
@@ -17,15 +17,15 @@
             "duplicatesID": "0",
             "examples": {
                 "sourcematchcontext": "jerusalem",
-                "sourceauthor": "Swedenborg",
-                "sourcetitle": "Government",
-                "sourcedate": "1728 or 1700-1725",
-                "sourcemodulename": "Latin",
+                "sourceauthor": "Crusenstolpe",
+                "sourcetitle": "Morianen. Del 1",
+                "sourcedate": "1820 or 1800-1900",
+                "sourcemodulename": "Roman",
                 "targetmatchcontext": "liberty",
-                "targetauthor": "Paine",
+                "targetauthor": "Benzon",
                 "targettitle": "Liberties",
                 "targetdate": "1790 or 1750-1800",
-                "targetmodulename": "Literature and Language"
+                "targetmodulename": "Roman"
             }
         }
     },

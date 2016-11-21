@@ -22,7 +22,6 @@ type (
 		Databases    map[string]map[string]interface{} `json:"databases"`
 		Debug        bool                              `json:"debug"`
 		Modules      []string                          `json:"modules"`
-		LatinAuthors []string                          `json:"latinAuthors"`
 		TopAuthors   []string                          `json:"topAuthors"`
 		TopTitles    []string                          `json:"topTitles"`
 	}
@@ -519,10 +518,10 @@ func index(c *gin.Context) {
 	}
 	dbname := c.Param("dbname")
 	if dbname == "" {
-		dbname = "ecco"
+		dbname = "spf"
 	}
 	c.HTML(http.StatusOK, "index.html", gin.H{
-		"title":      "Commonplace Cultures",
+		"title":      "Intertexualitet",
 		"dbSelected": dbname,
 	})
 }
